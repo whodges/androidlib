@@ -1,3 +1,5 @@
+This repository can be used to illustrate a compile problem when using Android NDK 26 or later in Visual Studio.
+
 Environment: VS 2022 17.11.0 Preview 2.1 on Windows 10 (19045.4529).
 
 Setup:
