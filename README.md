@@ -18,7 +18,7 @@ Problems:
    This isn't really a problem, just more of an out-of-date inconvenience.
 
 2. Going from NDK 25 to 26, "[NDK Root]\sources\cxx-stl\llvm-libc++" and "[NDK Root]\sources\cxx-stl\llvm-libc++abi" were removed.
-   These folders (which contain the C++ headers) are added as the first header search paths by default via $(StlIncludeDirectories),
+   These folders (which contain the C++ headers) are added as the first header search paths by default via (StlIncludeDirectories),
    assuming you have 'Inherit from parent or project defaults' checked.  Immediately after these two folders get added,
    "$(SysRoot)\usr\include" (C headers) and "$(SysRoot)\usr\include\c++\v1" (C++ headers) get added automatically (no matter what you
    do - you can't change this or their ordering). In this instance, the order is correct: C++ headers will be found first, and C headers
